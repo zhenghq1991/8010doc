@@ -12,11 +12,11 @@
 
 实现arithmetic skill
 
-![](https://13421398942.gitbooks.io/gx8010_aicore/content/assets/skill%E5%BC%80%E5%8F%91%E7%AE%80%E5%8D%95%E5%85%A5%E6%89%8B.bmp)
+![](/assets/skill%E5%BC%80%E5%8F%91%E7%AE%80%E5%8D%95%E5%85%A5%E6%89%8B.bmp)
 
 内部至少包含：Vocab，\_\_init\_\_.py，skill.json
 
-![](https://13421398942.gitbooks.io/gx8010_aicore/content/assets/skill%E5%BC%80%E5%8F%91%E7%AE%80%E5%8D%95%E5%85%A5%E6%89%8B2.bmp)
+![](/assets/skill%E5%BC%80%E5%8F%91%E7%AE%80%E5%8D%95%E5%85%A5%E6%89%8B2.bmp)
 
 skill.json 内容如下：
 
