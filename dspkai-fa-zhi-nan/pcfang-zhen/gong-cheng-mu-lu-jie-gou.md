@@ -1,6 +1,6 @@
 # 工程目录结构 {#4-工程目录结构}
 
-![](/assets/选区_114.png)
+![](/assets/BA_114.png)
 
 vsp\_simulate 的目录结构如上图所示。
 
