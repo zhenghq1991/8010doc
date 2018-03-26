@@ -7,7 +7,7 @@
       * [概述](ssdkai-fa-ban-kai-fa-zhi-nan/ying-jian-fang-an/gai-shu.md)
       * [方案设计简介](ssdkai-fa-ban-kai-fa-zhi-nan/ying-jian-fang-an/fang-an-she-ji-jian-jie.md)
       * [SSD 平台实物图](ssdkai-fa-ban-kai-fa-zhi-nan/ying-jian-fang-an/ssd-ping-tai-shi-wu-tu.md)
-    * 软件方案
+    * [软件方案](ssdkai-fa-ban-kai-fa-zhi-nan/ruan-jian-fang-an.md)
       * [概述](ssdkai-fa-ban-kai-fa-zhi-nan/ruan-jian-fang-an/gai-shu.md)
       * [方案设计简介](ssdkai-fa-ban-kai-fa-zhi-nan/ruan-jian-fang-an/fang-an-she-ji-jian-jie.md)
       * [SDK 获取流程](ssdkai-fa-ban-kai-fa-zhi-nan/ruan-jian-fang-an/sdk-huo-qu-liu-cheng.md)
@@ -74,12 +74,12 @@
     * [如何确定定标 Q 值](dspkai-fa-zhi-nan/suan-fa-you-hua/ru-he-que-ding-ding-biao-q-zhi.md)
     * [HIFI 定点库使用](dspkai-fa-zhi-nan/suan-fa-you-hua/hifi-ding-dian-ku-shi-yong.md)
   * [算法部署调试](dspkai-fa-zhi-nan/suan-fa-bu-shu-diao-shi.md)
-* [NPU开发指南]()
+* NPU开发指南
   * [NPU简介](npukai-fa-zhi-nan/npujian-jie.md)
   * [编译器安装](npukai-fa-zhi-nan/bian-yi-qi-an-zhuang.md)
   * [编译器使用](npukai-fa-zhi-nan/bian-yi-qi-shi-yong.md)
   * [模型部署](npukai-fa-zhi-nan/mo-xing-bu-shu.md)
-  * [PC仿真]()
+  * PC仿真
     * [NPU模拟器介绍](npukai-fa-zhi-nan/pcfang-zhen/npumo-ni-qi-jie-shao.md)
     * [NPU模拟器使用](npukai-fa-zhi-nan/pcfang-zhen/npumo-ni-qi-shi-yong.md)
 
