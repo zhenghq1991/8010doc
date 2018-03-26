@@ -7,7 +7,7 @@
       * [概述](ssdkai-fa-ban-kai-fa-zhi-nan/ying-jian-fang-an/gai-shu.md)
       * [方案设计简介](ssdkai-fa-ban-kai-fa-zhi-nan/ying-jian-fang-an/fang-an-she-ji-jian-jie.md)
       * [SSD 平台实物图](ssdkai-fa-ban-kai-fa-zhi-nan/ying-jian-fang-an/ssd-ping-tai-shi-wu-tu.md)
-    * [软件方案](ssdkai-fa-ban-kai-fa-zhi-nan/ruan-jian-fang-an.md)
+    * [软件方案]()
       * [概述](ssdkai-fa-ban-kai-fa-zhi-nan/ruan-jian-fang-an/gai-shu.md)
       * [方案设计简介](ssdkai-fa-ban-kai-fa-zhi-nan/ruan-jian-fang-an/fang-an-she-ji-jian-jie.md)
       * [SDK 获取流程](ssdkai-fa-ban-kai-fa-zhi-nan/ruan-jian-fang-an/sdk-huo-qu-liu-cheng.md)
