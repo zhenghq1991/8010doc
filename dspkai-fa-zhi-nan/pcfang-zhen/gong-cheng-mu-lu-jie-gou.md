@@ -1,6 +1,6 @@
 # 工程目录结构 {#4-工程目录结构}
 
-![](/assets/%E9%80%89%E5%8C%BA_114.png)
+![](/assets/选区_114.png)
 
 vsp\_simulate 的目录结构如上图所示。
 
@@ -22,10 +22,11 @@ vsp\_simulate 的目录结构如上图所示。
 1. **关系流程**： vsp\_main.c --&gt;&gt;vsp\_context.c --&gt;&gt;vsp\_process.c --&gt;&gt;vsp\_algorithm\_implemet.c --&gt;&gt;algorithm算法
 2. **细节描述**：
 
-* vsp\_main.c: 工程的入口
-* vsp\_context.c: wave 文件的读取 和 context 的封装实现
-* vsp\_process.c: dsp 算法入口
-* vsp\_algorithm\_implement.c:
+3. vsp\_main.c: 工程的入口
+
+4. vsp\_context.c: wave 文件的读取 和 context 的封装实现
+5. vsp\_process.c: dsp 算法入口
+6. vsp\_algorithm\_implement.c:
 
 
 
