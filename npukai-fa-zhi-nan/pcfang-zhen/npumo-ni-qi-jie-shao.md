@@ -1,3 +1,5 @@
+# NPU模拟器介绍 {#第1章-npu模拟器介绍}
+
 NPU模拟器，我们称为cmodel
 
 它的功能是在x86上模拟GX8010（GX8008）snpu或者npu对tensorflow op的运算操作
@@ -22,8 +24,6 @@ xxx.yaml代表你自己定义的名字
 
 验证成功后，加载到开发板上，通过snpu或者npu运行，可以加时间进行打印，看看运行的效率如何
 
-
-
-[  
+[    
 ](https://13421398942.gitbooks.io/gx8010_npu/content/di-2-zhang-npu-mo-ni-qi-shi-yong.html)
 
