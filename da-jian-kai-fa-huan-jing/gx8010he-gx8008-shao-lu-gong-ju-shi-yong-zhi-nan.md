@@ -4,9 +4,6 @@ Bootx支持串口，usb slave两种方式下载
 
 工具下载地址： 链接：[https://pan.baidu.com/s/1jmWUZXnwgWY24oo9n-sUEA](https://pan.baidu.com/s/1jmWUZXnwgWY24oo9n-sUEA)密码：4fwp
 
-  
-
-
 ## 一：
 
 进行串口下载的时候，确保串口线接在uart ck上面，确认上电有输出。配置是默认的115200
@@ -63,7 +60,6 @@ sudo ./bootx -b ./gxscpu.boot -c flash erase 0xa00000 0x761d800 -d /dev/ttyUSB0
 
 sudo ./bootx -b ./gxscpu.boot -c flash erase 0x000000 0x8000000 -d /dev/ttyUSB0
 
-  
 烧录完成后，进uboot下，输入：
 
 setenv bootcmd "run bootnand"
@@ -71,9 +67,6 @@ setenv bootcmd "run bootnand"
 saveenv
 
 重启，就可以自动进nandflash启动 了
-
-  
-
 
 ## 三 bootx命令格式
 
@@ -107,9 +100,6 @@ bootx \[-m &lt;machine&gt;\] \[-t &lt;transfer mode&gt;\] \[-b &lt;bootloader fi
 
 * -V： 显示bootx的changelog
 
-  
-
-
 ## 四 使用例程
 
 下载命令:
@@ -120,20 +110,16 @@ serialdown（需要传输模式 -t 为 s）
 
 ```
 bootx -b gxscpu.boot -t s -c serialdown 0x0 download.bin
-
 ```
 
-  
 usbslavedown（需要传输模式 -t 为 u/su）
 
 下载download.bin到flash的0x0地址处，以 -t 为 u 的情况举例如下
 
 ```
 bootx -b gxscpu.boot -t u -c usbslavedown 0x0 download.bin
-
 ```
 
-  
 dump 命令:
 
 serialdump（需要传输模式 -t 为 s）
@@ -142,17 +128,14 @@ serialdump（需要传输模式 -t 为 s）
 
 ```
 bootx -b gxscpu.boot -t s -c serialdump 0  0x100000 dump.bin
-
 ```
 
-  
 usbslavedump（需要传输模式 -t 为 u/su）
 
 从 flash 中读取起始地址为 0 长度为 0x100000 的数据到当前目录的 dump.bin 文件中，以 -t 为 u 的情况举例如下
 
 bootx -b gxscpu.boot -t u -c usbslavedump 0 0x100000 dump.bin
 
-  
 通用命令:
 
 flash 擦除
@@ -163,15 +146,12 @@ flash 擦除
 
 ```
 bootx -b leo\_mpw\_ssd\_1v.boot -c flash erase 0x0 0x10000
-
 ```
 
-  
 全部擦除：
 
 ```
 bootx -b leo\_mpw\_ssd\_1v.boot -c flash eraseall
-
 ```
 
 一次使用多组命令的方法:
