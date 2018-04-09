@@ -4,7 +4,7 @@ Bootx支持串口，usb slave两种方式下载
 
 工具下载地址： 链接：[https://pan.baidu.com/s/1jmWUZXnwgWY24oo9n-sUEA](https://pan.baidu.com/s/1jmWUZXnwgWY24oo9n-sUEA)密码：4fwp
 
-## 一：
+## 一、
 
 进行串口下载的时候，确保串口线接在uart ck上面，确认上电有输出。配置是默认的115200
 
@@ -30,7 +30,7 @@ bootx -b gxscpu.boot -t s -c serialdown 0x0 mcu.bin
 
 ![](https://13421398942.gitbooks.io/gx8010-gx8008/content/assets/1834706187.jpg)
 
-## 二：
+## 二、
 
 usb slave下载，这个速度更快
 
@@ -68,7 +68,7 @@ saveenv
 
 重启，就可以自动进nandflash启动 了
 
-## 三 bootx命令格式
+## 三 、bootx命令格式
 
 bootx \[-m &lt;machine&gt;\] \[-t &lt;transfer mode&gt;\] \[-b &lt;bootloader file&gt;\] \[-c &lt;boot command line&gt;\] \[-d &lt;serial device&gt;\] \[-r &lt;rom baudrate&gt;\] \[-D\] \[-h\] \[-H\] \[-v\] \[-V\]
 
@@ -100,7 +100,7 @@ bootx \[-m &lt;machine&gt;\] \[-t &lt;transfer mode&gt;\] \[-b &lt;bootloader fi
 
 * -V： 显示bootx的changelog
 
-## 四 使用例程
+## 四 、使用例程
 
 下载命令:
 
